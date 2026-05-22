@@ -1,0 +1,27 @@
+.floatTag {
+    position: absolute;
+    bottom: -$space-3;
+    left: $space-3;
+    padding: $space-2;
+    border-radius: $radius-md;
+    background-color: $white;
+    background-color: $color-secondary;
+    border: 1px solid $color-border;
+
+    @include for-tablet(){
+        bottom: $space-2;
+        left: -$space-4;
+    }
+
+    .title {
+        font-size: $font-xl;
+        color: $foreground;
+        font-weight: 500;
+    }
+
+    .text {
+        font-size: $font-sm;
+        letter-spacing: 1px;
+        color: $foreground-muted;
+    }
+}

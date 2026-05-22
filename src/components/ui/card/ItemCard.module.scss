@@ -1,0 +1,43 @@
+.card {
+    width: 100%;
+    padding: 2rem;
+    border: 1px solid $color-border;
+    // max-width: 23rem;
+    // max-height: fit-content;
+    border-radius: $radius-md;
+    transition: $transition;
+    background-color: $white;
+    &:hover {
+        box-shadow: $shadow-soft;
+
+        .icon {
+            color: $color-primary-dark;
+        }
+    }
+}
+
+.icon_container {
+    width: 2.7rem;
+    height: 2.7rem;
+    background-color: $color-primary-muted;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: $radius-md;
+    margin-bottom: $space-2;
+}
+
+.icon {
+    width: 50%;
+    color: $color-primary;
+}
+
+.title {
+    font-size: $font-xl;
+    margin-bottom: $space-2;
+}
+
+.text {
+    line-height: 1.7;
+    color: $foreground-muted;
+}

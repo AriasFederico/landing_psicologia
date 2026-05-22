@@ -1,0 +1,40 @@
+.testimony {
+    padding: 2rem;
+    background-color: $bg-soft;
+    width: fit-content;
+    height: fit-content;
+    max-width: 23rem;
+    border-radius: $radius-md;
+    border:1px solid $color-border;
+}
+
+.quote {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-bottom: $space-2;
+    color: $color-primary;
+}
+
+.text {
+    margin-bottom: $space-2;
+    line-height: 1.7;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.userFlex {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.userName {
+    font-weight: bold;
+    font-size: $font-lg;
+}
+
+.userAdjetive {
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: $foreground-muted;
+}

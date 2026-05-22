@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth; 
+}
+
+a {
+    text-decoration: none;
+    color: inherit; // Para que no se pongan azules por defecto
+    display: inline-block;
+    transition: $transition;
+    cursor: pointer;
+}
+
+a,p {
+   font-family: $font-main; 
+}
+
+button {
+    border: none;
+    background: none;
+    font: inherit;
+    cursor: pointer;
+    outline: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+img, svg {
+    max-width: 100%;
+    // display: block; // Quita el espacio extra que tienen debajo las imágenes
+    // height: auto;
+    // object-position: center;
+    // object-fit: cover;
+}
+
+h1,h2,h3,h4 {
+    font-family: $font-accent;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 1;
+    margin-bottom: $space-2;
+    color: $foreground;
+
+    @include for-tablet(){
+        font-size: 60px;
+    }
+}
+
+h2 {
+    font-size: 48px;
+    line-height: 1;
+    margin-bottom: 1rem;
+}
+
+p {
+    line-height: 1.7rem;
+}   

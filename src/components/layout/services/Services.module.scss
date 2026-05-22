@@ -10,13 +10,13 @@
 .items {
     margin-top: $space-4;
     display: flex;
-    flex-direction: column;
+    // flex-direction: column;
+    flex-wrap: wrap;
     gap: $space-2;
-    
+
     @include for-tablet(){
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 300px;
         gap: $space-2;
     }
 }

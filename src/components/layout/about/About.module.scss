@@ -1,0 +1,27 @@
+.content {
+    align-self: flex-start;
+
+    .ctas {
+        display: flex;
+        justify-content: start;
+        margin-top: $space-4;
+
+
+        @include for-tablet(){
+            margin: 0;
+        }
+    }
+}
+
+
+.media {
+    margin-bottom: $space-4;
+
+    @include for-tablet(){
+        margin: 0;
+    }
+
+    .img {
+        border-radius: $radius-md;
+    }
+}

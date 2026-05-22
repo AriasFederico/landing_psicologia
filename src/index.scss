@@ -37,9 +37,10 @@ img, svg {
     // object-fit: cover;
 }
 
-h1,h2,h3,h4 {
+h1,h2,h3,h4,h5 {
     font-family: $font-accent;
     font-weight: 500;
+    color: $foreground;
 }
 
 h1 {

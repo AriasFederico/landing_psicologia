@@ -1,3 +1,4 @@
+export * from './about/About';
 export * from './header/Header';
 export * from './hero/Hero';
 export * from './hero_layout/HeroLayout';

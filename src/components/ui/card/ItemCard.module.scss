@@ -2,11 +2,15 @@
     width: 100%;
     padding: 2rem;
     border: 1px solid $color-border;
-    // max-width: 23rem;
-    // max-height: fit-content;
     border-radius: $radius-md;
     transition: $transition;
     background-color: $white;
+
+    @include for-tablet(){
+        max-width: 23rem;
+        height: auto;
+    }
+        
     &:hover {
         box-shadow: $shadow-soft;
 

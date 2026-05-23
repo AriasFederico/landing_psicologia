@@ -2,7 +2,7 @@ import { ButtonCta, FloatTag, TopSection } from '../../ui';
 import { HeroLayout } from '..';
 import styles from './Hero.module.scss';
 
-export const Hero = ({ toWhatsApp, img }) => {
+export const Hero = ({ cta, img }) => {
 
     const data = {
         title: '',
@@ -22,7 +22,7 @@ export const Hero = ({ toWhatsApp, img }) => {
                 </p>
 
                 <div className={styles.ctas}>
-                    <ButtonCta text={'Pedir primera consulta'} icon={'cta'} size='md' />
+                    <ButtonCta text={'Pedir primera consulta'} icon={'cta'} size='md' href={cta} />
                     <ButtonCta text={'Conocer más'} variant='secondary' size='md' />
                 </div>
                 <p className={styles.smallText}>

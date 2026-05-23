@@ -2,8 +2,6 @@
     align-self: flex-start;
 
     .ctas {
-        display: flex;
-        justify-content: start;
         margin-top: $space-4;
 
 
@@ -22,6 +20,12 @@
     }
 
     .img {
-        border-radius: $radius-md;
+        width: 100%;
+        border-radius: $radius-lg;
+        max-height: 450px;
+
+        @include for-tablet(){
+            max-height: 100%;
+        }
     }
 }

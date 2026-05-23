@@ -3,7 +3,7 @@ import { BsList, BsX } from 'react-icons/bs';
 import { ButtonCta } from '../../ui'
 import styles from './Header.module.scss';
 
-export const Header = ({ toWhatsApp }) => {
+export const Header = ({ cta }) => {
 
 
     const NAV_LINKS = [
@@ -15,7 +15,7 @@ export const Header = ({ toWhatsApp }) => {
 
     const CTA = {
         text: 'Primera consulta',
-        toWhatsApp: toWhatsApp
+        cta: cta
     }
 
     const [isOpen, setIsOpen] = useState(false);
@@ -53,12 +53,12 @@ export const Header = ({ toWhatsApp }) => {
                         </a>
                     ))}
                     <div className={styles.ctaMobile}>
-                        <ButtonCta size='sm' icon={'cta'} text={CTA.text} href={CTA.toWhatsApp} />
+                        <ButtonCta size='sm' icon={'cta'} text={CTA.text} href={CTA.cta} />
                     </div>
                 </nav>
 
                 <div className={styles.cta}>
-                    <ButtonCta size='sm' icon={'cta'} text={CTA.text} href={CTA.toWhatsApp} />
+                    <ButtonCta size='sm' icon={'cta'} text={CTA.text} href={CTA.cta} />
                 </div>
 
                 <button

@@ -1,0 +1,20 @@
+.steps {
+    
+}
+
+.header {
+    text-align: center;
+}
+
+.items {
+    margin-top: $space-4;
+    display: flex;
+    flex-direction: column;
+    gap: $space-6;
+
+
+    @include for-tablet(){
+        flex-direction: row;
+        gap: $space-4;
+    }
+}

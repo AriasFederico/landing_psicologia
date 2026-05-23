@@ -1,0 +1,31 @@
+.indexedCard {
+    position: relative;
+    width: 100%;
+}
+
+.topCard {
+    letter-spacing: 1px;
+    color: $color-primary-dark;
+    margin-bottom: $space-1;
+}
+
+.index {
+color: $color-primary-muted;
+    position: absolute;
+    font-size: 5rem;
+    font-family: $font-accent;
+    top: -2.5rem;
+}
+
+.content {
+    z-index: 100;
+}
+
+.title {
+    font-size: $font-xl;
+    margin-bottom: $space-2;
+}
+
+.text {
+    color: $foreground-muted;
+}

@@ -1,11 +1,16 @@
 .testimony {
     padding: 2rem;
     background-color: $bg-soft;
-    width: fit-content;
-    height: fit-content;
-    max-width: 23rem;
+    width: 100%;
+    // height: fit-content;
+    // max-width: 23rem;
     border-radius: $radius-md;
     border:1px solid $color-border;
+    transition: $transition;
+
+    &:hover {
+        box-shadow: $shadow-soft;
+    }
 }
 
 .quote {
@@ -20,6 +25,7 @@
     line-height: 1.7;
     font-size: 14px;
     font-style: italic;
+    color: $foreground-muted;
 }
 
 .userFlex {
@@ -29,12 +35,13 @@
 }
 
 .userName {
-    font-weight: bold;
-    font-size: $font-lg;
+    // font-weight: bold;
+    font-size: $font-base;
 }
 
 .userAdjetive {
     font-size: 12px;
     letter-spacing: 1px;
     color: $foreground-muted;
+    font-family: $font-main;
 }

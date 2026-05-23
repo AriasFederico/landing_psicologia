@@ -1,5 +1,13 @@
 import './App.scss';
-import { About, Header, Hero, Services } from './components/layout';
+import {
+  About,
+  FirstStep,
+  Header,
+  Hero,
+  Services,
+  Steps,
+  Testimonies,
+} from './components/layout';
 
 function App() {
   const WHATSAPP_URL =
@@ -13,10 +21,13 @@ function App() {
 
   return (
     <div>
-      <Header toWhatsApp={WHATSAPP_URL} />
-      <Hero toWhatsApp={WHATSAPP_URL} img={HERO_IMG} />
+      <Header cta={WHATSAPP_URL} />
+      <Hero cta={WHATSAPP_URL} img={HERO_IMG} />
       <Services />
-      <About toWhatsApp={WHATSAPP_URL} img={ABOUT_IMG} />
+      <About cta={WHATSAPP_URL} img={ABOUT_IMG} />
+      <Steps />
+      <Testimonies />
+      <FirstStep cta={WHATSAPP_URL} img={TEXTURE_IMG} />
     </div>
   );
 }

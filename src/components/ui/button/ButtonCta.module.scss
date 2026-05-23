@@ -1,10 +1,11 @@
 .button {
   // background-color: ;
   border: 1px solid $color-border;
-  border-radius: $radius-md;
+  border-radius: $radius-lg;
   transition: $transition;
   font-family: $font-main;
   // box-shadow: $shadow-soft;
+  width: fit-content;
   display: flex;
   align-items: center;
   justify-content: center;

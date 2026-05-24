@@ -1,0 +1,21 @@
+.detailItem {
+    margin-top: $space-4;
+    display: flex;
+    gap: $space-2;
+}
+
+.icon {
+    width: $space-2;
+    margin-top: $space-1;
+    height: $space-2;
+}
+
+.title {
+    color: $foreground;
+    font-size: $font-lg;
+}
+
+.text {
+    color: $foreground-muted;
+    font-size: $font-sm;
+}

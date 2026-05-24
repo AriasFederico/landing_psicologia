@@ -3,8 +3,8 @@ export const Footer = ({ name }) => {
 	return (
 		<footer className={styles.footer}>
 			<a href={'#'} className={styles.logo} onClick={() => setIsOpen(false)}>
-			{/* img si aplica */}
-				Logo
+				{/* img si aplica */}
+				Dra. Laura Martinez
 			</a>
 			{/* <Logo text={'nutri'} size='sm' url={'#'} /> */}
 			<p className={styles.copyright}>

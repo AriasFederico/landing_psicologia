@@ -1,4 +1,5 @@
 import {
+	BsAlarm,
 	BsArrowRepeat,
 	BsCompass,
 	BsHouseCheck,
@@ -20,4 +21,5 @@ export const iconMap = {
 	star: BsStar,
 	repeat: BsArrowRepeat,
 	compass: BsCompass,
+	clock: BsAlarm,
 };

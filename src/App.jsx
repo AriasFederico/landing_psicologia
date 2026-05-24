@@ -2,16 +2,20 @@ import './App.scss';
 import {
   About,
   FirstStep,
+  Footer,
   Header,
   Hero,
+  MapSection,
   Services,
   Steps,
   Testimonies,
 } from './components/layout';
 
 function App() {
-  const WHATSAPP_URL =
-    'https://wa.me/2213186889?text=Hola%2C%20quiero%20agendar%20una%20cita';
+  const numberCta = '2213186689';
+  const coordinatesMap = '';
+
+  const WHATSAPP_URL = `https://wa.me/${numberCta}?text=Hola%2C%20quiero%20agendar%20una%20cita`;
   const HERO_IMG =
     'https://media.base44.com/images/public/6a087a98ab3e998fa594c666/71c159dd3_generated_26402ec1.png';
   const ABOUT_IMG =
@@ -28,6 +32,8 @@ function App() {
       <Steps />
       <Testimonies />
       <FirstStep cta={WHATSAPP_URL} img={TEXTURE_IMG} />
+      <MapSection coordinates={coordinatesMap} />
+      <Footer name={'Dra. Laura Martinez'} />
     </div>
   );
 }

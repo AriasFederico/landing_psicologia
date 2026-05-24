@@ -22,7 +22,7 @@ export const Steps = () => {
         ]
     }
     return (
-        <SectionLayout bgVariant={'soft'} direction={'column'}>
+        <SectionLayout bgVariant={'soft'} direction={'column'} id={'steps'}>
             <div className={styles.header}>
                 <TopSection text={data.topSection} />
                 <h2>{data.title}</h2>

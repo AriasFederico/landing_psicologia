@@ -9,7 +9,7 @@ export const About = ({ cta, img }) => {
     };
 
     return (
-        <SectionLayout bgVariant={'soft'}>
+        <SectionLayout bgVariant={'soft'} id={'about'}>
             <div className={styles.media}>
                 <img src={img} alt="" className={styles.img} />
             </div>

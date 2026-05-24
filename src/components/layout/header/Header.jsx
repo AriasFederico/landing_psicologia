@@ -8,9 +8,9 @@ export const Header = ({ cta }) => {
 
     const NAV_LINKS = [
         { label: 'Inicio', href: '#' },
-        { label: 'Sobre mí', href: '#link', },
-        { label: 'Terapia', href: '#link2', },
-        { label: 'Consulta', href: '#link3', },
+        { label: 'Sobre mí', href: '#about', },
+        { label: 'Terapia', href: '#steps', },
+        { label: 'Consulta', href: '#contact', },
     ]
 
     const CTA = {

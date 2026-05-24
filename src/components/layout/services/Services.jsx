@@ -33,7 +33,7 @@ export const Services = () => {
     const { title, text, services } = data;
 
     return (
-        <SectionLayout bgVariant={'main'} direction={'column'}>
+        <SectionLayout bgVariant={'main'} direction={'column'} id={'services'}>
             <div className={styles.header}>
                 <TopSection text={'- ¿En qué puedo ayudarte? -'} />
                 <h2>{title}</h2>

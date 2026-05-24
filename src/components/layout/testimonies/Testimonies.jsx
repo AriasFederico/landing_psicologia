@@ -15,7 +15,7 @@ export const Testimonies = () => {
     };
 
     return (
-        <SectionLayout bgVariant={'main'} direction={'column'}>
+        <SectionLayout bgVariant={'main'} direction={'column'} id={'testimonies'}>
             <div className={styles.header}>
                 <TopSection text={'- Testimonios -'} />
                 <h2>{data.title}</h2>

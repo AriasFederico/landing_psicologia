@@ -24,7 +24,7 @@ export const MapSection = ({ coordinates }) => {
     const { info } = data;
 
     return (
-        <SectionLayout bgVariant={'main'} direction={'column'}>
+        <SectionLayout bgVariant={'main'} direction={'column'} id={'contact'}>
             <div className={styles.header}>
                 <TopSection text={data.topSection} />
                 <h2>{data.title}</h2>
